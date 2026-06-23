@@ -1,0 +1,19 @@
+name: obsidian
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python + core conda packages
+  - python=3.12
+  - pip
+  - numpy
+  - polars
+  - sympy
+  - scipy
+  - matplotlib
+  - ipykernel
+  - jupyter_client
+
+  # pip-only packages
+  # - pip:
